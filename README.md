@@ -45,8 +45,7 @@ pip install -r requirements.txt
 
 ## Repo Structure
 ```
-Project Structure
-├── data/                       
+Project Structure                    
 ├── LICENSE                     
 ├── README.md                   
 ├── Reddit_Sentiment_Analysis.ipynb  
