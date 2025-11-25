@@ -1,15 +1,6 @@
-# Python-Reddit-Sentiment-Analysis
+# rPettyrevenge-Sentiment-Analysis
 
 Sentiment analysis on Reddit posts using the PRAW library for scraping and the VADER SentimentIntensityAnalyzer for text analysis. The analysis is presented in a Jupyter Notebook.
-
-```
-Project Structure
-├── data/                       # (optional) storage for datasets  
-├── LICENSE                     # license file  
-├── README.md                   # project documentation  
-├── Reddit_Sentiment_Analysis.ipynb  # main notebook  
-└── requirements.txt            # Python dependencies  
-```
 
 
 ### Install the required packages:
@@ -21,16 +12,14 @@ pip install -r requirements.txt
 
 ## Workflow
 
-- Web Scraping:
+- 1) Web Scraping:
 
 - Collects posts from a target subreddit using PRAW.
-
   - Stores titles, bodies, and URLs in a structured DataFrame.
 
-- Sentiment Analysis:
+- 2) Sentiment Analysis:
 
   - Applies VADER to calculate negative, neutral, positive, and compound scores.
-
   - Stores sentiment scores in the DataFrame.
 
 ## Findings
@@ -63,6 +52,16 @@ The histogram below shows that posts cluster in the pettyrevenge subreddiit at t
     *Reddit API credentials are required. Create a Reddit app by following the OAuth2 Quick Start Guide*
 
 6) Run Notebook
+
+## Repo Structure
+```
+Project Structure
+├── data/                       # (optional) storage for datasets  
+├── LICENSE                     # license file  
+├── README.md                   # project documentation  
+├── Reddit_Sentiment_Analysis.ipynb  # main notebook  
+└── requirements.txt            # Python dependencies  
+```
 
 
 ## License
